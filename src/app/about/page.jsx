@@ -38,8 +38,8 @@ function Culture() {
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Loyalty" invert>
-            Our team has been with us since the beginning because none of them
-            are allowed to have LinkedIn profiles.
+            Stefan and James studied software engineering and commerce together at
+            the University of Auckland and setup Singular in 2019
           </GridListItem>
           <GridListItem title="Trust" invert>
             We don’t care when our team works just as long as they are working
@@ -60,17 +60,17 @@ const team = [
     title: 'Leadership',
     people: [
       {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
+        name: 'Stefan van der Wel',
+        role: 'Co-Founder / Data Architect & Management Consultant',
         image: { src: imageLeslieAlexander },
       },
       {
-        name: 'Michael Foster',
+        name: 'James Choi',
         role: 'Co-Founder / CTO',
         image: { src: imageMichaelFoster },
       },
       {
-        name: 'Dries Vincent',
+        name: 'Peter Xing',
         role: 'Partner & Business Relations',
         image: { src: imageDriesVincent },
       },
