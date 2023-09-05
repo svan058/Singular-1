@@ -27,27 +27,24 @@ function Culture() {
   return (
     <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
-        eyebrow="Our culture"
-        title="Balance your passion with your passion for life."
+        eyebrow="Our Culture"
+        title="Architecting the Future, One Transformation at a Time."
         invert
       >
         <p>
-          We are a group of like-minded people who share the same core values.
+          We are a team of visionaries committed to turning data into foresight and strategy into disruptive innovation.
         </p>
       </SectionIntro>
       <Container className="mt-16">
         <GridList>
-          <GridListItem title="Loyalty" invert>
-            Stefan and James studied software engineering and commerce together at
-            the University of Auckland and setup Singular in 2019
+          <GridListItem title="Innovation" invert>
+            We specialize in crafting disruptive strategies that rewrite the rules of your industry.
           </GridListItem>
-          <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+          <GridListItem title="Expertise" invert>
+            Our enterprise and data architecture services turn your data into a competitive advantage.
           </GridListItem>
-          <GridListItem title="Compassion" invert>
-            You never know what someone is going through at home and we make
-            sure to never find out.
+          <GridListItem title="Leadership" invert>
+            We provide visionary technical leadership for complex transformation programs.
           </GridListItem>
         </GridList>
       </Container>
@@ -62,7 +59,7 @@ const team = [
       {
         name: 'Stefan van der Wel',
         role: 'Co-Founder / Data Architect & Management Consultant',
-        image: { src: imageLeslieAlexander },
+        image: { src:imageLeonardKrasner  },
       },
       {
         name: 'James Choi',
@@ -80,50 +77,16 @@ const team = [
     title: 'Team',
     people: [
       {
-        name: 'Chelsea Hagon',
+        name: 'Michael Holborn',
         role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
+        image: { src:imageBlakeReid  },
       },
       {
-        name: 'Emma Dorsey',
+        name: 'Zara Wilson',
         role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
+        image: { src: imageLeslieAlexander },
       },
-      {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
-      },
-      {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
-      },
-      {
-        name: 'Benjamin Russel',
-        role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
-      },
-      {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
-      },
+      
     ],
   },
 ]
@@ -188,35 +151,28 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+    <PageIntro eyebrow="About Singular" title="Where Vision Meets Execution">
+      <p>
+        At Singular, we don’t just adapt to change; we catalyze it. Our services turn your data into foresight, and your strategy into disruptive innovation.
+      </p>
+      <div className="mt-10 max-w-2xl space-y-6 text-base">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Founded by visionaries in data architecture and strategic transformation, Singular is committed to leading the industry into the future.
         </p>
-        <div className="mt-10 max-w-2xl space-y-6 text-base">
-          <p>
-            Singular was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
-          </p>
-          <p>
-            At Singular, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
-        </div>
-      </PageIntro>
-      <Container className="mt-16">
-        <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
-        </StatList>
-      </Container>
+        <p>
+          We’re not just a team; we’re a think tank of innovators. We work around the clock to ensure that your business is not just in the game but ahead of it.
+        </p>
+      </div>
+    </PageIntro>
+    <Container className="mt-16">
+      <StatList>
+        <StatListItem value="20+" label="Transformative Projects" />
+        <StatListItem value="3+" label="Industry Leaders Served" />
+        <StatListItem value="$10M+" label="Revenue Generated for Clients" />
+      </StatList>
+    </Container>
 
-      <Culture />
+    <Culture />
 
       <Team />
 
