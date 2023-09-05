@@ -83,7 +83,7 @@ function Build() {
           Each client is assigned a dedicated account manager to facilitate seamless communication and provide regular updates on project milestones.
         </p>
         <p>
-          Our account managers are trained to be responsive and proactive, ensuring that you are always in the loop and satisfied with the project's progress.
+          Our account managers are trained to be responsive and proactive, ensuring that you are always in the loop and satisfied with the project progress.
         </p>
       </div>
 
