@@ -8,27 +8,16 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
-import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
-import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
-import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
-import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
-import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
-import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
-import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
-import logoUnseal from '@/images/clients/unseal/logo-light.svg'
+
+import logoIKEA from '@/images/clients/IKEA/logo.svg'
+import logoIAG from '@/images/clients/IAG/logo.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['IAG', logoIKEA],
+  ['Ikea', logoIAG],
+
 ]
 
 function Clients() {
@@ -37,7 +26,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with two of amazing people
+            We’re working with these two amazing clients
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -122,8 +111,8 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        We don’t just adapt to change; we catalyze it. Our services turn your data into foresight, and your strategy into disruptive innovation.
+
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -139,23 +128,18 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            We specialize in crafting disruptive strategies that rewrite the rules of your industry.
+
             </ListItem>
             <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            Our enterprise and data architecture services turn your data into a competitive advantage.
+
             </ListItem>
             <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            We provide visionary technical leadership for complex transformation programs.
             </ListItem>
             <ListItem title="Custom content management">
-              At Singular we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            From cloud data platform migration to master data management, we handle it all with expertise.
             </ListItem>
           </List>
         </div>
@@ -180,9 +164,9 @@ export default async function Home() {
             Data & Analytics advisory in Australia & New Zealand
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are developer studio working at the intersection of design and
-            technology. It’s a really busy intersection though — a lot of our
-            staff have been involved in hit and runs.
+            At Singular, we’re not just navigating the future; we’re creating it. 
+            We specialize in the kind of disruptive strategy and technical architecture that doesn’t just improve your business, but reinvents it—turning data into something more than information, into vision.
+           Forget the next quarter; we’re building the roadmap for your next quarter-century.
           </p>
         </FadeIn>
       </Container>
@@ -193,7 +177,7 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'IKEA', logo: logoIKEA }}
       >
         The team at Singular went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of
