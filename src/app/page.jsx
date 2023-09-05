@@ -151,7 +151,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'We are developer studio working at the intersection of design and technology.',
+    'Data & Analytics advisory in Australia & New Zealand',
 }
 
 export default async function Home() {
