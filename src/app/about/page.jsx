@@ -9,18 +9,11 @@ import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import imageAngelaFisher from '@/images/team/angela-fisher.jpeg'
-import imageBenjaminRussel from '@/images/team/benjamin-russel.jpeg'
 import imageBlakeReid from '@/images/team/blake-reid.jpeg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpeg'
 import imageDriesVincent from '@/images/team/dries-vincent.jpeg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpeg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpeg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpeg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpeg'
+import imageStefan from '@/images/team/Stefan.jpeg'
 import imageLeslieAlexander from '@/images/team/leslie-alexander.jpeg'
-import imageMichaelFoster from '@/images/team/michael-foster.jpeg'
-import imageWhitneyFrancis from '@/images/team/whitney-francis.jpeg'
+import imageMichaelFoster from '@/images/team/James.jpeg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
 function Culture() {
@@ -58,13 +51,13 @@ const team = [
     people: [
       {
         name: 'Stefan van der Wel',
-        role: 'Co-Founder / Data Architect & Management Consultant',
-        image: { src:imageLeonardKrasner  },
+        role: 'Data Architect & Management Consultant',
+        image: { src:imageStefan  },
       },
       {
         name: 'James Choi',
-        role: 'Co-Founder / CTO',
-        image: { src: imageMichaelFoster },
+        role: 'Managing Partner and Consultant',
+        image: { src: imageJames },
       },
       {
         name: 'Peter Xing',
