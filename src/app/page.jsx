@@ -18,7 +18,6 @@ const clients = [
   ['Phobia', logoPhobiaLight],
   ['Family Fund', logoFamilyFund],
   ['Unseal', logoUnseal],
-  
 ]
 
 function Clients() {
