@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
@@ -8,16 +7,16 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
-import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
-import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
-import logoUnseal from '@/images/clients/unseal/logo-light.svg'
+
+import logoIKEA from '@/images/clients/IKEA/logo.svg'
+import logoIAG from '@/images/clients/IAG/logo.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
+  ['IAG', logoIKEA],
+  ['Ikea', logoIAG],
+
 ]
 
 function Clients() {
@@ -179,7 +178,7 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaLight }}
+        client={{ name: 'IKEA', logo: logoIKEA }}
       >
         The team at Singular went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of

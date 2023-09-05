@@ -9,14 +9,9 @@ import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
 import { Testimonial } from '@/components/Testimonial'
-import logoBrightPath from '@/images/clients/bright-path/logo-dark.svg'
-import logoFamilyFund from '@/images/clients/family-fund/logo-dark.svg'
-import logoGreenLife from '@/images/clients/green-life/logo-dark.svg'
-import logoHomeWork from '@/images/clients/home-work/logo-dark.svg'
-import logoMailSmirk from '@/images/clients/mail-smirk/logo-dark.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-dark.svg'
-import logoPhobia from '@/images/clients/phobia/logo-dark.svg'
-import logoUnseal from '@/images/clients/unseal/logo-dark.svg'
+
+import logoIKEA from '@/images/clients/IKEA/logo.svg'
+import logoIAG from '@/images/clients/IAG/logo.svg'
 import { formatDate } from '@/lib/formatDate'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
@@ -92,14 +87,8 @@ function CaseStudies({ caseStudies }) {
 }
 
 const clients = [
-  ['Phobia', logoPhobia],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['IAG', logoIKEA],
+  ['Ikea', logoIAG],
 ]
 
 function Clients() {
@@ -143,13 +132,11 @@ export default async function Work() {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        eyebrow="Our Work"
+        title="Architecting Transformative Solutions."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          At Singular, we don’t just adapt to change; we architect it. Our portfolio showcases how we’ve transformed businesses across industries, turning challenges into opportunities.
         </p>
       </PageIntro>
 
@@ -157,10 +144,9 @@ export default async function Work() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
+        client={{ name: 'IKEA', logo: logoIKEA }}
       >
-        We approached <em>Singular</em> because we loved their past work. They
-        delivered something remarkably similar in record time.
+        We chose to work with <em>Singular</em> because of their innovative approach and proven track record. They delivered a transformative solution that exceeded our expectations.
       </Testimonial>
 
       <Clients />
