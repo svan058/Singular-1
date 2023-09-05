@@ -13,7 +13,7 @@ import imageBlakeReid from '@/images/team/blake-reid.jpeg'
 import imageDriesVincent from '@/images/team/dries-vincent.jpeg'
 import imageStefan from '@/images/team/Stefan.jpeg'
 import imageLeslieAlexander from '@/images/team/leslie-alexander.jpeg'
-import imageMichaelFoster from '@/images/team/James.jpeg'
+import imageJames from '@/images/team/James.jpeg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
 function Culture() {
