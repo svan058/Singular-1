@@ -163,14 +163,14 @@ export default async function Home() {
             Technical Delivery. From none to done.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We will find that one new feature that can drive immediate velocity, by treating our engagements
-            with a hungry tech entrepeneur mindset.
+            Consutling with a startup mindset. We will find and deliver that one new feature 
+            to drive immediate velocity through using the mindset of a hungry entrepreneur.
 
           </p>
           <p className="mt-6 text-xl text-neutral-600">
 
           We bring cutting edge frontend design, full stack development, data engineering and end to end architecture
-            to help you achieve your strategic goals in an interative fashion.
+            to help you achieve your strategic goals.
 
           </p>
         </FadeIn>
