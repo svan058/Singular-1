@@ -52,7 +52,7 @@ function CaseStudies({ caseStudies }) {
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="Digital & data driven acceleration"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
