@@ -57,7 +57,7 @@ const team = [
       {
         name: 'James Choi',
         role: 'Managing Partner and Consultant',
-        image: { src: imageJames },
+        image: { src:imageJames },
       },
       {
         name: 'Peter Xing',
