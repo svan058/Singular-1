@@ -8,14 +8,14 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 
-import logoIKEA from '@/images/clients/IKEA/logo.svg'
+import logoICARE from '@/images/clients/ICARE/icare.png'
 import logoIAG from '@/images/clients/IAG/logo.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
 const clients = [
-  ['IAG', logoIKEA],
-  ['Ikea', logoIAG],
+  ['IAG', logoIAG],
+  ['ICARE', logoICARE],
 
 ]
 
@@ -56,9 +56,7 @@ function CaseStudies({ caseStudies }) {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
-          challenges. It’s also the cause, so we find ourselves in bit of a
-          catch 22 situation.
+          
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -162,12 +160,27 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
+<<<<<<< HEAD
             Digital and Data Consulting Services
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
            Pareto’s principle is that 20% of the change can drive 80% of the outcome. Singular specialises in  we’re not just navigating the future; we’re creating it. 
             We specialize in the kind of disruptive strategy and technical architecture that doesn’t just improve your business, but reinvents it—turning data into something more than information, into vision.
            Forget the next quarter; we’re building the roadmap for your next quarter-century.
+=======
+            Technical Delivery. From 0 to done.
+          </h1>
+          <p className="mt-6 text-xl text-neutral-600">
+            We will find that one new feature that can drive immediate velocity, by treating our engagements
+            with a hungry tech entrepeneur mindset looking for the 80/20. Just build it.
+
+          </p>
+          <p className="mt-6 text-xl text-neutral-600">
+
+          We bring cutting edge frontend design, full stack development, data engineering and end to end architecture
+            to help you achieve your strategic goals in an interative fashion.
+
+>>>>>>> main
           </p>
         </FadeIn>
       </Container>
@@ -178,11 +191,8 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'IKEA', logo: logoIKEA }}
+        client={{ name: 'iCARE', logo: logoICARE }}
       >
-        The team at Singular went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
       </Testimonial>
 
       <Services />

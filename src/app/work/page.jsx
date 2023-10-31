@@ -10,7 +10,7 @@ import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
 import { Testimonial } from '@/components/Testimonial'
 
-import logoIKEA from '@/images/clients/IKEA/logo.svg'
+import logoICARE from '@/images/clients/ICARE/icare.png'
 import logoIAG from '@/images/clients/IAG/logo.svg'
 import { formatDate } from '@/lib/formatDate'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
@@ -87,8 +87,8 @@ function CaseStudies({ caseStudies }) {
 }
 
 const clients = [
-  ['IAG', logoIKEA],
-  ['Ikea', logoIAG],
+  ['ICARE', logoICARE],
+  ['IAG', logoIAG],
 ]
 
 function Clients() {
@@ -144,7 +144,7 @@ export default async function Work() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'IKEA', logo: logoIKEA }}
+        client={{ name: 'ICARE', logo: logoICARE }}
       >
         We chose to work with <em>Singular</em> because of their innovative approach and proven track record. They delivered a transformative solution that exceeded our expectations.
       </Testimonial>
