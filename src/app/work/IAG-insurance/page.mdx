@@ -1,0 +1,59 @@
+import logo from '@/images/clients/IAG/logo.svg'
+import imageHero from './hero.jpg'
+import imageJohnDoe from './debra-fiscal.jpeg'
+
+export const caseStudy = {
+  client: 'IAG Insurance',
+  title: 'Reimagining Data Architecture for Modern Insurance',
+  description:
+    'IAG is revolutionizing insurance by harnessing the power of cutting-edge data architecture, ensuring seamless data flow and enhanced analytics.',
+  summary: [
+    'IAG is pioneering modern insurance solutions backed by a robust data architecture, allowing for enhanced data analytics and customer insights.',
+    'Our team provided strategic data architecture solutions, integrating various data sources and optimizing data processing for advanced analytics.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2023-02',
+  service: 'Data Architecture, Analytics',
+  testimonial: {
+    author: { name: 'John Doe', role: 'Chief Data Officer at IAG' },
+    content:
+      'Collaborating with Singular was transformative. Their expertise in data architecture strengthened our analytics capabilities and propelled us to the forefront of insurance technology.',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+In an era where data drives decision-making, IAG recognized the need for a state-of-the-art data architecture. With a vision to refine their analytics and offer customers personalized insurance solutions, they sought our expertise.
+
+Our collaboration aimed to integrate disparate data sources, ensure data integrity, and create a foundation for advanced analytics. By leveraging cloud solutions and implementing a centralized data hub, we streamlined data processes, providing IAG with real-time insights.
+
+A focus was also placed on data security, ensuring customer data's confidentiality and complying with industry regulations.
+
+## What we did
+
+<TagList>
+  <TagListItem>Data Integration</TagListItem>
+  <TagListItem>Cloud Solutions</TagListItem>
+  <TagListItem>Data Analytics</TagListItem>
+  <TagListItem>Data Security</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'John Doe', role: 'Chief Data Officer at IAG' }}
+  image={{ src: imageJohnDoe }}
+>
+  Singular's approach to data architecture was methodical and innovative. Their solutions not only enhanced our data processes but also paved the way for advanced analytics, driving business growth.
+</Blockquote>
+
+<StatList>
+  <StatListItem value="50%" label="Increase in Data Processing Speed" />
+  <StatListItem value="30%" label="Enhanced Data Security" />
+  <StatListItem value="20%" label="Improved Analytics Accuracy" />
+  <StatListItem value="100TB" label="Data Processed Daily" />
+</StatList>
