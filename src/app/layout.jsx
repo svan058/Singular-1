@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Singular',
-    default: 'Singular - Award winning developer studio based in Sydney',
+    default: 'Singular - Digital & Data Platform Engineering',
   },
 }
 
