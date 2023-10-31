@@ -165,9 +165,11 @@ export default async function Home() {
             Data & Analytics advisory in Australia & New Zealand
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            At Singular, we’re not just navigating the future; we’re creating it. 
-            We specialize in the kind of disruptive strategy and technical architecture that doesn’t just improve your business, but reinvents it—turning data into something more than information, into vision.
-           Forget the next quarter; we’re building the roadmap for your next quarter-century.
+            We will find that one new feature that can drive immediate velocity, by treating our engagements
+            with a hungry tech entrepeneur mindset looking for the 80/20. Just build it.
+
+            We bring cutting edge frontend design, full stack development, data engineering and end to end architecture
+            to help you achieve your strategic goals in an interative fashion.
           </p>
         </FadeIn>
       </Container>
