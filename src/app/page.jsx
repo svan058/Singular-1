@@ -160,14 +160,18 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Data & Analytics advisory in Australia & New Zealand
+            Technical Delivery. From 0 to done.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
             We will find that one new feature that can drive immediate velocity, by treating our engagements
             with a hungry tech entrepeneur mindset looking for the 80/20. Just build it.
 
-            We bring cutting edge frontend design, full stack development, data engineering and end to end architecture
+          </p>
+          <p className="mt-6 text-xl text-neutral-600">
+
+          We bring cutting edge frontend design, full stack development, data engineering and end to end architecture
             to help you achieve your strategic goals in an interative fashion.
+
           </p>
         </FadeIn>
       </Container>
