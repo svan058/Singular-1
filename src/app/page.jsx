@@ -94,7 +94,7 @@ function CaseStudies({ caseStudies }) {
             </FadeIn>
           ))} */}
 
-          Coming soon
+          
         </FadeInStagger>
       </Container>
     </>
