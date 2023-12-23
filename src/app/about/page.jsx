@@ -150,7 +150,7 @@ export default async function About() {
       </p>
       <div className="mt-10 max-w-2xl space-y-6 text-base">
         <p>
-          Founded by visionaries in data architecture and strategic transformation, Singular is committed to leading the industry into the future.
+          Founded by a full stack team covering ux design/development as well as backend customer platforms, Singular is committed to leading the industry into the future.
         </p>
         <p>
           We’re not just a team; we’re a think tank of innovators. We work around the clock to ensure that your business is not just in the game but ahead of it.
